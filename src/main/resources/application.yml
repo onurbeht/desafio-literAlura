@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: literAlura
+  datasource:
+    url: jdbc:postgresql://localhost:5432/DB-liteAlura
+    username: Bruno
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
